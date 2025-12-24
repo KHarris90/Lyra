@@ -1,9 +1,11 @@
-﻿* text=auto
+﻿* text=auto eol=lf
 
-*.rs   text eol=lf
-*.toml text eol=lf
-*.yml  text eol=lf
-*.yaml text eol=lf
-*.md   text eol=lf
-*.gitignore text eol=lf
-*.ly   text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
+*.dll binary
