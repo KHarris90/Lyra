@@ -1,5 +1,4 @@
-﻿# Normalize text files and force LF where it matters for CI/fmt
-* text=auto
+﻿* text=auto
 
 *.rs   text eol=lf
 *.toml text eol=lf
