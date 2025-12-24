@@ -1,5 +1,10 @@
-﻿* text=auto
-*.rs text eol=lf
+﻿# Normalize text files and force LF where it matters for CI/fmt
+* text=auto
+
+*.rs   text eol=lf
 *.toml text eol=lf
-*.yml text eol=lf
-*.md text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.md   text eol=lf
+*.gitignore text eol=lf
+*.ly   text eol=lf
