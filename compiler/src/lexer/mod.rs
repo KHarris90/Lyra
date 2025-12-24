@@ -1,4 +1,4 @@
-use lyra_meta::{Diagnostic, Span};
+﻿use lyra_meta::{Diagnostic, Span};
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub enum TokenKind {

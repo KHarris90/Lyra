@@ -1,4 +1,4 @@
-use crate::span::Span;
+﻿use crate::span::Span;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Severity {

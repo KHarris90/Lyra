@@ -1,4 +1,4 @@
-use lyra_meta::prelude::Diagnostic;
+﻿use lyra_meta::prelude::Diagnostic;
 
 use crate::ast::Module;
 use crate::lexer::Token;
