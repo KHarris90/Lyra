@@ -1,0 +1,12 @@
+﻿[package]
+name = "lyra-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+lyra-meta = { path = "../../crates/lyra-meta" }
+compiler = { path = "../../compiler" }
+clap.workspace = true
+anyhow.workspace = true
+

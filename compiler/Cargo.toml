@@ -1,0 +1,19 @@
+﻿[package]
+name = "compiler"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "lyrac"
+path = "src/bin/lyrac.rs"
+
+[dependencies]
+lyra-meta = { path = "../crates/lyra-meta" }
+anyhow.workspace = true
+thiserror.workspace = true
+clap.workspace = true
+

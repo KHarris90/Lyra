@@ -1,0 +1,6 @@
+﻿[alias]
+# Dont alias `fmt` (it conflicts with the real `cargo fmt` and can recurse)
+fmt-all = "fmt --all"
+
+clippy-all = "clippy --workspace --all-targets --all-features -- -D warnings -D clippy::all -D clippy::pedantic -A clippy::module_name_repetitions -A clippy::missing_errors_doc -A clippy::missing_panics_doc"
+

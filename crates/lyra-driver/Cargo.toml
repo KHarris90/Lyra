@@ -1,0 +1,11 @@
+﻿[package]
+name = "lyra-driver"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+compiler = { path = "../../compiler" }
+lyra-meta = { path = "../lyra-meta" }
+anyhow.workspace = true
+
