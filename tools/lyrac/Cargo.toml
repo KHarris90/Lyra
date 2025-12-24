@@ -1,5 +1,5 @@
 ﻿[package]
-name = "lyra-cli"
+name = "lyrac"
 version.workspace = true
 edition.workspace = true
 license.workspace = true

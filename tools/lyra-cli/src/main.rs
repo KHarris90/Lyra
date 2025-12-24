@@ -30,7 +30,7 @@ enum EmitArg {
     Tokens,
 }
 
-impl From<EmitArg> for compiler::driver::Emit {
+impl From<EmitArg> for lyra_driver::Emit {
     fn from(v: EmitArg) -> Self {
         match v {
             EmitArg::None => Self::None,
@@ -45,10 +45,10 @@ fn main() -> Result<()> {
 
     match cli.cmd {
         Command::Compile { file, emit } => {
-            let out = compiler::driver::compile_file(&file, emit.into())?;
+            let out = lyra_driver::compile_file(&file, emit.into())?;
 
             for d in &out.diagnostics {
-                compiler::driver::print_diag(d);
+                lyra_driver::print_diag(d);
             }
 
             println!("compiled {}", file.display());

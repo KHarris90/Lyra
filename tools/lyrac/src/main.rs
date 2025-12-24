@@ -21,7 +21,7 @@ enum EmitArg {
     Tokens,
 }
 
-impl From<EmitArg> for compiler::driver::Emit {
+impl From<EmitArg> for lyra_driver::Emit {
     fn from(v: EmitArg) -> Self {
         match v {
             EmitArg::None => Self::None,
@@ -35,10 +35,10 @@ fn main() -> Result<()> {
     println!("{LYRA_NAME} compiler v{LYRA_VERSION}");
 
     let args = Args::parse();
-    let out = compiler::driver::compile_file(&args.file, args.emit.into())?;
+    let out = lyra_driver::compile_file(&args.file, args.emit.into())?;
 
     for d in &out.diagnostics {
-        compiler::driver::print_diag(d);
+        lyra_driver::print_diag(d);
     }
 
     Ok(())
