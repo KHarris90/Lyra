@@ -1,4 +1,4 @@
-﻿[alias]
+[alias]
 # Dont alias `fmt` (it conflicts with the real `cargo fmt` and can recurse)
 fmt-all = "fmt --all"
 

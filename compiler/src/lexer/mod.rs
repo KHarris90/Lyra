@@ -1,7 +1,8 @@
-﻿use lyra_meta::{Diagnostic, Span};
+use lyra_meta::{Diagnostic, Span};
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub enum TokenKind {
+    Eof,
     Ident(String),
     Int(i64),
     Str(String),
@@ -78,6 +79,11 @@ pub fn tokenize(source: &str) -> (Vec<Token>, Vec<Diagnostic>) {
         );
         i += 1;
     }
+
+    tokens.push(Token {
+        kind: TokenKind::Eof,
+        span: Span::new(source.len(), source.len()),
+    });
 
     (tokens, diags)
 }

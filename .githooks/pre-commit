@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+# Git hook shim: invoke Windows PowerShell (5.1)
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:/dev/lyra/.githooks/pre-commit.ps1"

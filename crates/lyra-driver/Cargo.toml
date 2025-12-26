@@ -1,4 +1,4 @@
-﻿[package]
+[package]
 name = "lyra-driver"
 version.workspace = true
 edition.workspace = true

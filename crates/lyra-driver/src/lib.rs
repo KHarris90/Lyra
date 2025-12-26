@@ -1,4 +1,4 @@
-﻿use anyhow::{Context, Result};
+use anyhow::{Context, Result};
 use lyra_meta::{Diagnostic, Severity};
 use std::path::Path;
 
