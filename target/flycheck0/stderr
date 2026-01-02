@@ -1,0 +1,486 @@
+   0.034364900s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="compiler"}: cargo::core::compiler::fingerprint: fingerprint error for compiler v0.1.0 (C:\dev\lyra\compiler)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("compiler", ["lib"], "C:\\dev\\lyra\\compiler\\src\\lib.rs", Edition2021) }
+   0.034396000s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="compiler"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\compiler-a009f49248e84d7c\lib-compiler`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.073544100s  INFO prepare_target{force=false package_id=lyra-meta v0.1.0 (C:\dev\lyra\crates\lyra-meta) target="lyra_meta"}: cargo::core::compiler::fingerprint: fingerprint error for lyra-meta v0.1.0 (C:\dev\lyra\crates\lyra-meta)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lyra_meta", ["lib"], "C:\\dev\\lyra\\crates\\lyra-meta\\src\\lib.rs", Edition2021) }
+   0.073562100s  INFO prepare_target{force=false package_id=lyra-meta v0.1.0 (C:\dev\lyra\crates\lyra-meta) target="lyra_meta"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\lyra-meta-eec1fe41e0cd820b\lib-lyra_meta`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.075960400s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="compiler"}: cargo::core::compiler::fingerprint: fingerprint error for compiler v0.1.0 (C:\dev\lyra\compiler)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("compiler", ["lib"], "C:\\dev\\lyra\\compiler\\src\\lib.rs", Edition2021) }
+   0.075975100s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="compiler"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\compiler-5ea2171f146db187\test-lib-compiler`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.076401200s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="lexer"}: cargo::core::compiler::fingerprint: fingerprint error for compiler v0.1.0 (C:\dev\lyra\compiler)/Check { test: true }/TargetInner { kind: "test", name: "lexer", benched: false, ..: with_path("C:\\dev\\lyra\\compiler\\tests\\lexer.rs", Edition2021) }
+   0.076414200s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="lexer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\compiler-4aec81d607402dcb\test-integration-test-lexer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.076932300s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="parser"}: cargo::core::compiler::fingerprint: fingerprint error for compiler v0.1.0 (C:\dev\lyra\compiler)/Check { test: true }/TargetInner { kind: "test", name: "parser", benched: false, ..: with_path("C:\\dev\\lyra\\compiler\\tests\\parser.rs", Edition2021) }
+   0.076946700s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="parser"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\compiler-397ba239e4cd8a77\test-integration-test-parser`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.077626300s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="smoke"}: cargo::core::compiler::fingerprint: fingerprint error for compiler v0.1.0 (C:\dev\lyra\compiler)/Check { test: true }/TargetInner { kind: "test", name: "smoke", benched: false, ..: with_path("C:\\dev\\lyra\\compiler\\tests\\smoke.rs", Edition2021) }
+   0.077641500s  INFO prepare_target{force=false package_id=compiler v0.1.0 (C:\dev\lyra\compiler) target="smoke"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\compiler-17d62067e2b493b7\test-integration-test-smoke`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.078255700s  INFO prepare_target{force=false package_id=formatter v0.1.0 (C:\dev\lyra\tools\formatter) target="formatter"}: cargo::core::compiler::fingerprint: fingerprint error for formatter v0.1.0 (C:\dev\lyra\tools\formatter)/Check { test: false }/TargetInner { name: "formatter", doc: true, ..: with_path("C:\\dev\\lyra\\tools\\formatter\\src\\main.rs", Edition2021) }
+   0.078268700s  INFO prepare_target{force=false package_id=formatter v0.1.0 (C:\dev\lyra\tools\formatter) target="formatter"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\formatter-aceca3a98b5365ab\bin-formatter`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.078754200s  INFO prepare_target{force=false package_id=formatter v0.1.0 (C:\dev\lyra\tools\formatter) target="formatter"}: cargo::core::compiler::fingerprint: fingerprint error for formatter v0.1.0 (C:\dev\lyra\tools\formatter)/Check { test: true }/TargetInner { name: "formatter", doc: true, ..: with_path("C:\\dev\\lyra\\tools\\formatter\\src\\main.rs", Edition2021) }
+   0.078769500s  INFO prepare_target{force=false package_id=formatter v0.1.0 (C:\dev\lyra\tools\formatter) target="formatter"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\formatter-87a7c30c7717c8b0\test-bin-formatter`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.079270000s  INFO prepare_target{force=false package_id=linter v0.1.0 (C:\dev\lyra\tools\linter) target="linter"}: cargo::core::compiler::fingerprint: fingerprint error for linter v0.1.0 (C:\dev\lyra\tools\linter)/Check { test: false }/TargetInner { name: "linter", doc: true, ..: with_path("C:\\dev\\lyra\\tools\\linter\\src\\main.rs", Edition2021) }
+   0.079284700s  INFO prepare_target{force=false package_id=linter v0.1.0 (C:\dev\lyra\tools\linter) target="linter"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\linter-2601192d8875df65\bin-linter`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.079729300s  INFO prepare_target{force=false package_id=linter v0.1.0 (C:\dev\lyra\tools\linter) target="linter"}: cargo::core::compiler::fingerprint: fingerprint error for linter v0.1.0 (C:\dev\lyra\tools\linter)/Check { test: true }/TargetInner { name: "linter", doc: true, ..: with_path("C:\\dev\\lyra\\tools\\linter\\src\\main.rs", Edition2021) }
+   0.079744700s  INFO prepare_target{force=false package_id=linter v0.1.0 (C:\dev\lyra\tools\linter) target="linter"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\linter-b701fedc14aaef46\test-bin-linter`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.082717900s  INFO prepare_target{force=false package_id=lyra-cli v0.1.0 (C:\dev\lyra\tools\lyra-cli) target="lyra-cli"}: cargo::core::compiler::fingerprint: fingerprint error for lyra-cli v0.1.0 (C:\dev\lyra\tools\lyra-cli)/Check { test: false }/TargetInner { name: "lyra-cli", doc: true, ..: with_path("C:\\dev\\lyra\\tools\\lyra-cli\\src\\main.rs", Edition2021) }
+   0.082732700s  INFO prepare_target{force=false package_id=lyra-cli v0.1.0 (C:\dev\lyra\tools\lyra-cli) target="lyra-cli"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\lyra-cli-3e8c36916d6f8ce1\bin-lyra-cli`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.086158500s  INFO prepare_target{force=false package_id=lyra-driver v0.1.0 (C:\dev\lyra\crates\lyra-driver) target="lyra_driver"}: cargo::core::compiler::fingerprint: fingerprint error for lyra-driver v0.1.0 (C:\dev\lyra\crates\lyra-driver)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lyra_driver", ["lib"], "C:\\dev\\lyra\\crates\\lyra-driver\\src\\lib.rs", Edition2021) }
+   0.086172700s  INFO prepare_target{force=false package_id=lyra-driver v0.1.0 (C:\dev\lyra\crates\lyra-driver) target="lyra_driver"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\lyra-driver-1ece2fc5684f99cd\lib-lyra_driver`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.086728200s  INFO prepare_target{force=false package_id=lyra-cli v0.1.0 (C:\dev\lyra\tools\lyra-cli) target="lyra-cli"}: cargo::core::compiler::fingerprint: fingerprint error for lyra-cli v0.1.0 (C:\dev\lyra\tools\lyra-cli)/Check { test: true }/TargetInner { name: "lyra-cli", doc: true, ..: with_path("C:\\dev\\lyra\\tools\\lyra-cli\\src\\main.rs", Edition2021) }
+   0.086759500s  INFO prepare_target{force=false package_id=lyra-cli v0.1.0 (C:\dev\lyra\tools\lyra-cli) target="lyra-cli"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\lyra-cli-8dc0bef80b0f35f4\test-bin-lyra-cli`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.087276000s  INFO prepare_target{force=false package_id=lyra-driver v0.1.0 (C:\dev\lyra\crates\lyra-driver) target="lyra_driver"}: cargo::core::compiler::fingerprint: fingerprint error for lyra-driver v0.1.0 (C:\dev\lyra\crates\lyra-driver)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("lyra_driver", ["lib"], "C:\\dev\\lyra\\crates\\lyra-driver\\src\\lib.rs", Edition2021) }
+   0.087289200s  INFO prepare_target{force=false package_id=lyra-driver v0.1.0 (C:\dev\lyra\crates\lyra-driver) target="lyra_driver"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\lyra-driver-d5368b644083b44b\test-lib-lyra_driver`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.087864300s  INFO prepare_target{force=false package_id=lyra-meta v0.1.0 (C:\dev\lyra\crates\lyra-meta) target="lyra_meta"}: cargo::core::compiler::fingerprint: fingerprint error for lyra-meta v0.1.0 (C:\dev\lyra\crates\lyra-meta)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("lyra_meta", ["lib"], "C:\\dev\\lyra\\crates\\lyra-meta\\src\\lib.rs", Edition2021) }
+   0.087879300s  INFO prepare_target{force=false package_id=lyra-meta v0.1.0 (C:\dev\lyra\crates\lyra-meta) target="lyra_meta"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\lyra-meta-34932955098d259b\test-lib-lyra_meta`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.088266700s  INFO prepare_target{force=false package_id=lyrac v0.1.0 (C:\dev\lyra\tools\lyrac) target="lyrac"}: cargo::core::compiler::fingerprint: fingerprint error for lyrac v0.1.0 (C:\dev\lyra\tools\lyrac)/Check { test: false }/TargetInner { name: "lyrac", doc: true, ..: with_path("C:\\dev\\lyra\\tools\\lyrac\\src\\main.rs", Edition2021) }
+   0.088278500s  INFO prepare_target{force=false package_id=lyrac v0.1.0 (C:\dev\lyra\tools\lyrac) target="lyrac"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\lyrac-1980b456a9536c92\bin-lyrac`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.088749800s  INFO prepare_target{force=false package_id=lyrac v0.1.0 (C:\dev\lyra\tools\lyrac) target="lyrac"}: cargo::core::compiler::fingerprint: fingerprint error for lyrac v0.1.0 (C:\dev\lyra\tools\lyrac)/Check { test: true }/TargetInner { name: "lyrac", doc: true, ..: with_path("C:\\dev\\lyra\\tools\\lyrac\\src\\main.rs", Edition2021) }
+   0.088761100s  INFO prepare_target{force=false package_id=lyrac v0.1.0 (C:\dev\lyra\tools\lyrac) target="lyrac"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\dev\lyra\target\debug\.fingerprint\lyrac-b0c5b2c5ecba85fb\test-bin-lyrac`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking lyra-meta v0.1.0 (C:\dev\lyra\crates\lyra-meta)
+    Checking linter v0.1.0 (C:\dev\lyra\tools\linter)
+    Checking formatter v0.1.0 (C:\dev\lyra\tools\formatter)
+    Checking compiler v0.1.0 (C:\dev\lyra\compiler)
+    Checking lyra-driver v0.1.0 (C:\dev\lyra\crates\lyra-driver)
+    Checking lyrac v0.1.0 (C:\dev\lyra\tools\lyrac)
+    Checking lyra-cli v0.1.0 (C:\dev\lyra\tools\lyra-cli)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.50s
