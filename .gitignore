@@ -20,3 +20,15 @@ Thumbs.db
 
 # Logs
 *.log
+# Rust
+/target/
+**/target/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
