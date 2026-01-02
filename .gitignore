@@ -1,0 +1,27 @@
+﻿# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Windows build outputs
+*.exe
+*.pdb
+*.dll
+*.lib
+*.exp
+
+# Logs
+*.log
+
+# Coverage / profiling
+*.profraw
+*.lcov
+coverage/
